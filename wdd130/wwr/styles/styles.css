@@ -4,17 +4,17 @@
     margin: 0 auto;
 }
 
-nav a{
+nav a {
     text-align: center;
     color: #FF5A1e;
     text-decoration: none;
 }
 
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
-.button-box{
+.button-box {
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ main section {
     background-color: #FF5A1e;
 }
 
-#background{
+#background {
     height: 725px;
 }
 
