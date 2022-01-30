@@ -6,7 +6,7 @@
 
 nav a {
     text-align: center;
-    color: #FF5A1e;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -23,13 +23,13 @@ main section {
     background-color: #FF5A1e;
 }
 
-#background {
+div#background {
     height: 725px;
 }
 
 
 body {
-    background-color: #FF5A1e;
+    background-color: #7FCDFF;
 }
 
 
@@ -96,10 +96,11 @@ footer a {
 }
 
 footer a:hover {
-    color: blue;
+    color: rgb(255, 17, 0);
     text-decoration: underline;
 }
 
 .logo {
     width: 80px;
+    margin: 0 auto;
 }
