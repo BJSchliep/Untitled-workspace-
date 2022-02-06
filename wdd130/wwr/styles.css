@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Outfit:wght@200&display=swap');
 
- div#content {
+ #content {
+    background-color: #7FCDFF;
     max-width: 1600px;
     margin: 0 auto;
 }
-
+/* if there is space it means to find what every is after the space. NAV --> Find anything with an "a" */
 nav a {
     text-align: center;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
+    padding: 35px;
 }
-
+/*# means to find the id*/
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    width: 100%;
 }
 
-.button-box {
+
+/* . means to find the class*/
+div.button-box {
     text-align: center;
 }
 
@@ -23,84 +29,131 @@ main section {
     background-color: #FF5A1e;
 }
 
-div#background {
-    height: 725px;
+main section img{
+    box-sizing: border-box;
+}
+#background {
+    height: 725px; 
+    background-color: #FF5A1e;
 }
 
 
 body {
     background-color: #7FCDFF;
+    font-family: Dongle, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 
 header {
-    background-color: #7FCDFF;
+    max-width: 1600px;
+    background-color: #FF5A1e;
 }
 
 
 nav a:hover{
     background-color: #7FCDFF;
-    color: #FF5A1e;
+    color: #ffffff;
 }
 
 .book, .join {
-    background-color: #FF5A1e;
-    text-decoration: none;
+    color: #ffffff;
+    background-color: #7FCDFF;
+    text-decoration: underline;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: #FF5A1e;
+    background-color: #ffffff;
+    color: #7FCDFF;
 }
 
+
 .msg {
-    background-color: #7FCDFF;
+    background-color: #FF5A1e;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #FF5A1e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
 .home-title {
-    color: #FF5A1e;
+    color: #ffffff;
+    font-family: Dongle, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
-    color: aliceblue;
+    color: #ffffff;
 }
 
-.book, .join {
-    color: black;
-}
 
-.book:hover, .join:hover {
-    color: black;
-}
 
 .msg h2 {
-    color: black;
+    font-family: Dongle, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 .msg p {
-    color: black;
+    color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
-    color: blanchedalmond;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 footer a {
-    color: blue;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
-footer a:hover {
-    color: rgb(255, 17, 0);
+a:hover {
+    color: #7FCDFF;
     text-decoration: underline;
 }
 
 .logo {
     width: 80px;
-    margin: 0 auto;
+}
+ 
+#hero-box {
+    width: 100%;
+    text-align: center;
+}
+#hero-box img{
+    width: 100%;
+}
+h2{
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, section.rapids-card{
+    margin: 200px;
+}
+
+.card-img{
+    border: 10px solid black;
 }
