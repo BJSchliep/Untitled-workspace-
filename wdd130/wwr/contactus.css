@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Outfit:wght@200&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+body{
+    max-width: 1600px;
+    background-color: #FF5A1e;
+    font-family: 'Outfit', Courier, monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #7FCDFF;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.home_title{
+    color: white;
+    font-family: 'Dongle', 'Outfit', monospace;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
+}
+
+h4{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a:hover{
+    background-color: #7FCDFF;
+    color: black;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+footer{
+    background-color: #7FCDFF;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+
