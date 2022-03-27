@@ -111,7 +111,7 @@ header {
 .ingredients {
     font-family: 'Cabin', lobster, monospace;
     font-size: 16px;
-    border: #ffa500 3px solid;
+    border: black 3px solid;
     border-radius: 25px;
     padding-left: 20%;
     padding-top: 10%;
@@ -120,7 +120,7 @@ header {
 .instructions {
     font-family: 'Cabin', lobster, monospace;
     font-size: 20px;
-    border: #ffa500 3px solid;
+    border: black 3px solid;
     border-radius: 25px;
     padding: 10%;
 }
