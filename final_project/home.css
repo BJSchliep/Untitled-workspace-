@@ -107,13 +107,17 @@ header {
 }
 
 
-
 .about {
-    font-size: 15px;
+    font-size: xx-large;
+    font-family: 'Lobster', Courier, monospace;
 }
 
 .about p {
     columns: 2/3;
+    font-size: x-large;
+    margin-bottom: 50px;
+    padding: 100px;
+    font-family: 'Cabin', Courier, monospace;
 }
 
 .card-img {
